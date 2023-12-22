@@ -5,7 +5,8 @@ class Amvera < Formula
   desc "Amvera CLI application"
   homepage "cloud.amvera.ru"
   url "https://github.com/kimutir/amvera-cli/releases/download/v0.9.2/amvera.tar.gz"
-  sha256 ""
+  version "0.0.1"
+  sha256 "c0792ddb0a80a5e40109fd04964094527074aa6d0c79910f51d681b1d05e18e6"
   license ""
 
   def install
