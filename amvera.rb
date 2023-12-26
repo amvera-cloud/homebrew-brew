@@ -12,7 +12,7 @@ class Amvera < Formula
 
   def install
     os = OS.mac? ? "macos" : "linux"
-    cpu = Hardware::CPU.arm? ? "arm64" : "x64"
+    cpu = Hardware::CPU.arm? ? "arm" : "x64"
     bin.install "amvera-#{os}-#{cpu}" => "amvera"
   end
 
