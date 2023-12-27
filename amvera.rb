@@ -5,10 +5,8 @@ class Amvera < Formula
   desc "Amvera CLI application"
   homepage "cloud.amvera.ru"
   url "https://github.com/amvera-cloud/homebrew-brew/releases/download/v0.9.5/amvera.tar.gz"
-  sha256 "e3ef5ce08b48543b4cc2a0590084cf84eab9937009146464eb2db63325ce5b0d"
+  sha256 "b13087d6e2be41e420d6badb37bc81b8319b29740db93801e94d43090dc7d921"
   license ""
-
-  # depends_on "cmake" => :build
 
   def install
     os = OS.mac? ? "macos" : "linux"
