@@ -4,8 +4,8 @@
 class Amvera < Formula
   desc "Amvera CLI application"
   homepage "cloud.amvera.ru"
-  url "https://github.com/amvera-cloud/homebrew-brew/releases/download/v0.9.4/amvera.tar.gz"
-  sha256 "3f653e4e483774300fa9b9437e27accd7065fc0e7ea8bb7f649de84cf526a6e1"
+  url "https://github.com/amvera-cloud/homebrew-brew/releases/download/v0.9.5/amvera.tar.gz"
+  sha256 "e3ef5ce08b48543b4cc2a0590084cf84eab9937009146464eb2db63325ce5b0d"
   license ""
 
   # depends_on "cmake" => :build
